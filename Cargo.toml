@@ -1,0 +1,33 @@
+[package]
+name = "bugsnag-client"
+version = "0.1.0"
+readme = "README.md"
+keywords = ["bug", "reporting"]
+license = "MIT"
+
+[dependencies.backtrace]
+version = "0.3"
+
+[dependencies.hyper]
+version = "0.10"
+
+[dependencies.serde]
+version = "1"
+
+[dependencies.serde_derive]
+version = "1"
+
+[dependencies.serde_json]
+version = "1"
+
+[dependencies.sys-info]
+version = "0.9"
+
+[dev-dependencies.lazy_static]
+version = "1"
+
+[dev-dependencies.log]
+version = "0.3"
+
+[dev-dependencies.serde_test]
+version = "1"
